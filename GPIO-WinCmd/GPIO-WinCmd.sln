@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GPIO-WinCmd", "GPIO-WinCmd.vcproj", "{1B7F74F5-C96A-43FC-A1A2-EC136065CCDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B7F74F5-C96A-43FC-A1A2-EC136065CCDD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1B7F74F5-C96A-43FC-A1A2-EC136065CCDD}.Debug|Win32.Build.0 = Debug|Win32
+		{1B7F74F5-C96A-43FC-A1A2-EC136065CCDD}.Release|Win32.ActiveCfg = Release|Win32
+		{1B7F74F5-C96A-43FC-A1A2-EC136065CCDD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

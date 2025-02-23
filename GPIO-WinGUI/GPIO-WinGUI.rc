@@ -1,0 +1,259 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_GPIOWINGUI_DIALOG DIALOGEX 0, 0, 329, 192
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "GPIO-WinGUI"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "Enable",IDC_RADIO_EN,"Button",BS_AUTORADIOBUTTON | WS_GROUP,15,13,37,10
+    CONTROL         "Disable",IDC_RADIO_DIS,"Button",BS_AUTORADIOBUTTON,52,13,39,10
+    CONTROL         "P0",IDC_CHECK_GPIO0,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,14,92,24,10
+    CONTROL         "P1",IDC_CHECK_GPIO1,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,40,92,24,10
+    CONTROL         "P2",IDC_CHECK_GPIO2,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,66,92,24,10
+    CONTROL         "P3",IDC_CHECK_GPIO3,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,92,92,24,10
+    CONTROL         "P4",IDC_CHECK_GPIO4,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,14,104,24,10
+    CONTROL         "P5",IDC_CHECK_GPIO5,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,40,104,24,10
+    CONTROL         "P6",IDC_CHECK_GPIO6,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,66,104,24,10
+    CONTROL         "P7",IDC_CHECK_GPIO7,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,92,104,24,10
+    CONTROL         "P8",IDC_CHECK_GPIO8,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,118,104,24,10
+    CONTROL         "P9",IDC_CHECK_GPIO9,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,144,104,24,10
+    CONTROL         "P10",IDC_CHECK_GPIO10,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,170,104,24,10
+    CONTROL         "P11",IDC_CHECK_GPIO11,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,196,104,24,10
+    CONTROL         "P12",IDC_CHECK_GPIO12,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,14,116,24,10
+    CONTROL         "P13",IDC_CHECK_GPIO13,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,40,116,24,10
+    CONTROL         "P14",IDC_CHECK_GPIO14,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,66,116,24,10
+    CONTROL         "P15",IDC_CHECK_GPIO15,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,92,116,24,10
+    CONTROL         "P16",IDC_CHECK_GPIO16,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,118,116,24,10
+    CONTROL         "P17",IDC_CHECK_GPIO17,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,144,116,24,10
+    CONTROL         "P18",IDC_CHECK_GPIO18,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,170,116,24,10
+    CONTROL         "P19",IDC_CHECK_GPIO19,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,196,116,24,10
+    CONTROL         "P0",IDC_CHECK_GPIO20,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,13,146,24,10
+    CONTROL         "P1",IDC_CHECK_GPIO21,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,39,146,24,10
+    CONTROL         "P2",IDC_CHECK_GPIO22,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,65,146,24,10
+    CONTROL         "P3",IDC_CHECK_GPIO23,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,91,146,24,10
+    CONTROL         "P4",IDC_CHECK_GPIO24,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,13,158,24,10
+    CONTROL         "P5",IDC_CHECK_GPIO25,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,39,158,24,10
+    CONTROL         "P6",IDC_CHECK_GPIO26,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,65,158,24,10
+    CONTROL         "P7",IDC_CHECK_GPIO27,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,91,158,24,10
+    CONTROL         "P8",IDC_CHECK_GPIO28,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,117,158,24,10
+    CONTROL         "P9",IDC_CHECK_GPIO29,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,143,158,24,10
+    CONTROL         "P10",IDC_CHECK_GPIO30,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,169,158,24,10
+    CONTROL         "P11",IDC_CHECK_GPIO31,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,195,158,24,10
+    CONTROL         "P12",IDC_CHECK_GPIO32,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,13,170,24,10
+    CONTROL         "P13",IDC_CHECK_GPIO33,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,39,170,24,10
+    CONTROL         "P14",IDC_CHECK_GPIO34,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,65,170,24,10
+    CONTROL         "P15",IDC_CHECK_GPIO35,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,91,170,24,10
+    CONTROL         "P16",IDC_CHECK_GPIO36,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,117,170,24,10
+    CONTROL         "P17",IDC_CHECK_GPIO37,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,143,170,24,10
+    CONTROL         "P18",IDC_CHECK_GPIO38,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,169,170,24,10
+    CONTROL         "P19",IDC_CHECK_GPIO39,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,195,170,24,10
+    GROUPBOX        "Pull up select",IDC_STATIC,7,2,88,24,WS_GROUP
+    GROUPBOX        "Uncheck-Open Drain, Check-Push Pull",IDC_STATIC,7,80,234,51
+    GROUPBOX        "Uncheck Output-0, Check-Output 1",IDC_STATIC,7,134,234,51,WS_DISABLED
+    PUSHBUTTON      "Set config",IDC_BUTTON_SYNC,272,156,50,14
+    PUSHBUTTON      "Connect",IDC_BUTTON_CONN,285,7,37,14
+    COMBOBOX        IDC_COMBO_DEVICE,156,8,102,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Scan",IDC_BUTTON_SCAN,259,7,24,14
+    CONTROL         "P0",IDC_CHECK_GPIO40,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,39,24,10
+    CONTROL         "P1",IDC_CHECK_GPIO41,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,39,39,24,10
+    CONTROL         "P2",IDC_CHECK_GPIO42,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,65,39,24,10
+    CONTROL         "P3",IDC_CHECK_GPIO43,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,91,39,24,10
+    CONTROL         "P4",IDC_CHECK_GPIO44,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,51,24,10
+    CONTROL         "P5",IDC_CHECK_GPIO45,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,39,51,24,10
+    CONTROL         "P6",IDC_CHECK_GPIO46,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,65,51,24,10
+    CONTROL         "P7",IDC_CHECK_GPIO47,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,91,51,24,10
+    CONTROL         "P8",IDC_CHECK_GPIO48,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,117,51,24,10
+    CONTROL         "P9",IDC_CHECK_GPIO49,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,143,51,24,10
+    CONTROL         "P10",IDC_CHECK_GPIO50,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,169,51,24,10
+    CONTROL         "P11",IDC_CHECK_GPIO51,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,195,51,24,10
+    CONTROL         "P12",IDC_CHECK_GPIO52,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,63,24,10
+    CONTROL         "P13",IDC_CHECK_GPIO53,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,39,63,24,10
+    CONTROL         "P14",IDC_CHECK_GPIO54,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,65,63,24,10
+    CONTROL         "P15",IDC_CHECK_GPIO55,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,91,63,24,10
+    CONTROL         "P16",IDC_CHECK_GPIO56,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,117,63,24,10
+    CONTROL         "P17",IDC_CHECK_GPIO57,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,143,63,24,10
+    CONTROL         "P18",IDC_CHECK_GPIO58,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,169,63,24,10
+    CONTROL         "P19",IDC_CHECK_GPIO59,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,195,63,24,10
+    GROUPBOX        "Uncheck Input, Check-Output",IDC_STATIC,7,27,234,51
+    PUSHBUTTON      "Continues",IDC_BUTTON_AUTO,272,170,50,14
+    PUSHBUTTON      "Get config",IDC_BUTTON_GET,272,136,50,14
+    PUSHBUTTON      "Set pin mode",IDC_SET_ONE_PINMODE,257,74,50,14
+    PUSHBUTTON      "Set ",IDC_SET_ONE_PIN,257,96,25,14
+    PUSHBUTTON      "Get pin",IDC_GET_ONE_PIN,257,111,50,14
+    EDITTEXT        IDC_EDIT_PIN,271,33,22,14,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "Clear",IDC_CLEAR_ONE_PIN,282,96,25,14
+    CONTROL         "Input",IDC_RADIO_INPUT,"Button",BS_AUTORADIOBUTTON,249,49,33,10
+    CONTROL         "Output",IDC_RADIO_OUTPUT,"Button",BS_AUTORADIOBUTTON,283,49,39,10
+    CONTROL         "Drain",IDC_RADIO_OPENDRAIN,"Button",BS_AUTORADIOBUTTON | WS_GROUP,249,62,33,10
+    CONTROL         "Push",IDC_RADIO_PUSHPULL,"Button",BS_AUTORADIOBUTTON,283,62,31,10
+    GROUPBOX        "",IDC_STATIC,246,27,76,103
+    LTEXT           "Pin",IDC_STATIC,259,36,10,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "GPIO-WinGUI.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "GPIO-WinGUI.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_GPIOWINGUI_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 322
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 185
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\GPIOWinGUI.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\GPIO-WinGUI.ico"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\GPIOWinGUI.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
